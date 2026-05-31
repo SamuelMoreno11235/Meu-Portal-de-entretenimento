@@ -1,0 +1,5 @@
+/* Limpando as margens padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,48 @@
+/* Estilo do fundo e da letra do site */
+body {
+    background-color: lightgray;
+    font-family: sans-serif;
+    color: #333;
+}
+
+/* Flexbox para colocar as três colunas lado a lado */
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+/* Configuração de cada coluna */
+.coluna {
+    flex: 1; /* Divide o espaço igual para as 3 colunas */
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid black; /* Borda simples */
+}
+
+/* Título de cada seção */
+.titulo-secao {
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Caixa que junta a foto e o texto */
+.caixa {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Padronização das imagens */
+.foto {
+    width: 150px; /* Tamanho fixo menor, comum para iniciantes */
+    height: 150px;
+    margin-bottom: 5px;
+}
+
+/* Texto das descrições */
+.texto {
+    font-size: 14px;
+    text-align: left;
+}
